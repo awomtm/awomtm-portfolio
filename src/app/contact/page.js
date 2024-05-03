@@ -7,8 +7,8 @@ import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
-import Image from 'next/image'
-import contact from '../../../public/contact.jpg'
+import Image from "next/image"
+import contact from "../../../public/contact.jpg"
 
 export default function Component() {
   return (

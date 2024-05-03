@@ -5,8 +5,8 @@
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
 // import { Button } from "@/components/ui/button"
-import heroImg2 from '../../public/heroImg2.jpg'
-import Image from 'next/image'
+import heroImg2 from "../../public/heroImg2.jpg"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 
 export default function VercelComponent() {
@@ -40,12 +40,12 @@ export default function VercelComponent() {
           </div>
           <Image
             src={heroImg2}
-            alt="Developer's Image"
+            alt="Developer Image"
             width={650} //automatically provided
             height={650} //automatically provided
             // blurDataURL="data:..." //automatically provided
             placeholder="blur" // Optional blur-up while loading
-            className='rounded-md'
+            className="rounded-md"
             />
         </div>
       </div>

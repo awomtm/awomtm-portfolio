@@ -3,9 +3,9 @@
  * @see https://v0.dev/t/Rdvsdmi3rry
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
-import Image from 'next/image'
+import Image from "next/image"
 import Link from "next/link"
-import heroImg1 from '../../public/heroImg1.jpg'
+import heroImg1 from "../../public/heroImg1.jpg"
 
 export default function Component() {
   return (
@@ -15,7 +15,7 @@ export default function Component() {
         backgroundImage: "url(../../public/heroImg1.jpg)",
       }}
     >
-      <div className="absolute inset-0 bg-gray-900/70 z-0" />
+      <div className="absolute inset-0 bg-gray-900/70 z-0"/>
       <div className="relative z-10 flex flex-col-reverse md:flex-row items-center justify-between max-w-6xl px-4 sm:px-6 lg:px-8 gap-8">
         <div className="text-center max-w-2xl">
           <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">

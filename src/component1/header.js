@@ -1,7 +1,7 @@
-import Image from 'next/image'
-import logo from '../../public/logo.png'
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
+import Image from "next/image"
+import logo from "../../public/logo.png"
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 export default function Header() {
     return<>

@@ -1,8 +1,8 @@
-import Image from 'next/image'
+import Image from "next/image"
 import Link from "next/link"
-import me from '../../public/me.jpeg'
-import DoneIcon from '@mui/icons-material/Done';
-import CheckCircleOutlinedIcon from '@mui/icons-material/CheckCircleOutlined';
+import me from "../../public/me.jpeg"
+import DoneIcon from "@mui/icons-material/Done"
+import CheckCircleOutlinedIcon from "@mui/icons-material/CheckCircleOutlined"
 
 export default function FeaturedProjects(){
     return(
@@ -14,7 +14,7 @@ export default function FeaturedProjects(){
                     <h2 className="text-lg mb-4 font-bold leading-5">NACETEM Website</h2>
                 </div>
                 <p className="text-slate-500  mb-2">The official webite for National Centre for Technology Management</p>
-                <Link href="/projects#1" className='text-rose-900'>Project details</Link>
+                <Link href="/projects#1" className="text-rose-900">Project details</Link>
             </div>
             <div className="w-1/6 p-2 rounded-lg border-2 hover:bg-slate-900 hover:text-white">
                 <div className="flex gap-px">

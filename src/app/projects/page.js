@@ -10,11 +10,11 @@
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
 import Link from "next/link"
-import Image from 'next/image'
-import education from '../../../public/education.jpg'
-import blood from '../../../public/blood-donation.jpg'
-import survey from '../../../public/survey.jpg'
-import technology from '../../../public/technology.jpg'
+import Image from "next/image"
+import education from "../../../public/education.jpg"
+import blood from "../../../public/blood-donation.jpg"
+import survey from "../../../public/survey.jpg"
+import technology from "../../../public/technology.jpg"
 
 
 export default function Projects() {
@@ -28,7 +28,7 @@ export default function Projects() {
             </Link>
             <Image
                 src={education}
-                alt="Developer's Image"
+                alt="Developer Image"
                 width={400} //automatically provided
                 height={300} //automatically provided
                 // blurDataURL="data:..." //automatically provided
@@ -52,7 +52,7 @@ export default function Projects() {
             </Link>
             <Image
                 src={blood}
-                alt="Developer's Image"
+                alt="Developer Image"
                 width={400} //automatically provided
                 height={300} //automatically provided
                 // blurDataURL="data:..." //automatically provided
@@ -76,7 +76,7 @@ export default function Projects() {
             </Link>
             <Image
                 src={survey}
-                alt="Developer's Image"
+                alt="Developer Image"
                 width={400} //automatically provided
                 height={300} //automatically provided
                 // blurDataURL="data:..." //automatically provided
@@ -100,7 +100,7 @@ export default function Projects() {
             </Link>
             <Image
                 src={technology}
-                alt="Developer's Image"
+                alt="Developer Image"
                 width={400} //automatically provided
                 height={300} //automatically provided
                 // blurDataURL="data:..." //automatically provided
